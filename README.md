@@ -21,7 +21,7 @@ Unlike standard literal translation tools (which blindly swap vocabulary), this 
 
 The backend decouples state schemas, validation rules, and atomic agent functions into a highly modular layout stationed directly at the root level:
 
-backend/
+backend/ (This is for full-stack app with nextjs frontend, with streamlit there is an additional file app.py)
 ├── nodes/
 │   ├── translation.py      # Node 1: Direct translation & linguistic friction extraction
 │   ├── verification.py     # Node 2: Asynchronous Tavily REST web context retrieval
